@@ -11,8 +11,8 @@ Installation
 ------------
 
 ```
-pip install --upgrade certbot
-pip install git+https://github.com/nextlayergmbh/certbot-nextlayer.git
+pip install --upgrade certbot # optional
+pip install certbot-nextlayer
 ```
 
 Verify:
