@@ -11,8 +11,6 @@ with open('README.md') as f:
 install_requires = [
     'acme>=0.31.0',
     'certbot>=0.31.0',
-    'dnspython',
-    'mock',
     'setuptools',
     'zope.interface',
     'requests'
@@ -27,7 +25,7 @@ setup(
     description="nextlayer DNS Authenticator plugin for Certbot",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://gitlab.nextlayer.at/nextlayer/certbot-nextlayer/',
+    url='https://github.com/nextlayergmbh/certbot-nextlayer.git',
     author="Alexander Holzapfel",
     author_email='alexander.holzapfel@nextlayer.at',
     license='MIT License',
