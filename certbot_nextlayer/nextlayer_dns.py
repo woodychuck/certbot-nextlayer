@@ -109,9 +109,7 @@ class Authenticator(dns_common.DNSAuthenticator):
 
     def notify_slaves(self, domain):
         requests.put(
-            url="https://dns.nextlayer.at/api/v1/servers/localhost/zones"
-            + domain
-            + "/notify",
+            url="https://dns.nextlayer.at/api/v1/servers/localhost/zones/" + domain + "/notify",
             headers=self.request_headers,
             timeout=15
         )
